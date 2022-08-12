@@ -1,0 +1,3 @@
+hai!
+This is the separate file in the separate branch from Master.
+This file is 1st staged and the again unstaged back with the command "git restore --staged <filename>"
