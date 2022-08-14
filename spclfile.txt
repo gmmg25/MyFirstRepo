@@ -9,3 +9,6 @@ This is the separate file in the separate branch from Master which is called 1st
 This file is 1st staged and then again unstaged back with the command "git restore --staged <filename>".
 
 We can commit the changes without staging them directly with the command "git commit -a -m "commit message" " where commit itself makes the changes to get staged without a separate command like "git add <filename>"
+
+To merge a branch into another branch, we have to be in a branch to which we want to merge some another branch and merge command is "git merge <filename>1stbranch".
+Here when we are merging 1stbranch into master branch, we must stay in master branch.
