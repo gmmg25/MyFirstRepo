@@ -1,7 +1,22 @@
 hai!
 
+<<<<<<< HEAD
 This is the separate file in the separate branch from Master.
 
 This file is 1st staged and the again unstaged back with the command "git restore --staged <filename>".
 
 We can commit directly without adding the file into the index i.e., without staging the file with the command "git commit -a -m "commit message".
+=======
+To create a separate branch within master to work on some file separately the command to create a separate branch is "git branch <branchname>".
+
+To enter into a particular branch, the command is "git checkout <branchname>".
+
+This is the separate file in the separate branch from Master which is called 1stbranch.
+
+This file is 1st staged and then again unstaged back with the command "git restore --staged <filename>".
+
+We can commit the changes without staging them directly with the command "git commit -a -m "commit message" " where commit itself makes the changes to get staged without a separate command like "git add <filename>"
+
+To merge a branch into another branch, we have to be in a branch to which we want to merge some another branch and merge command is "git merge <filename>1stbranch".
+Here when we are merging 1stbranch into master branch, we must stay in master branch.
+>>>>>>> 1stbranch
