@@ -1,2 +1,7 @@
 Hello there!
  This is the 1st file of my practice
+
+1. To connect/sync both central and local repository to perform pull and push operations on the data, the comma   nd is    "git remote add origin <link of https... in central repository>"  
+
+
+ 2. To pull data from the central repository to the local repository the command is "git pull origin master" 
